@@ -37,7 +37,7 @@ class App extends Component {
           <h1>Publist.ai Frontend Coding Challenge</h1>
           <p>Hello! Thank you for taking the time to review my code submission. In the two hour window I designed a simple front-end using React and Bootstrap4 to fetch the news articles and display them for the user.</p>
           <p>If I had more time, what I would like to do is have each card be initially show the slug, and if you click on the header the card would expand to see the full article. That way users would be able to see a higher volume of articles and only be shown deeper information for the news that catches their eye.</p>
-          <p>Jonathan Yee, Web Developer</p>
+          <p>Jonathan Yee, Front End Engineer</p>
 
           {this.state.articles["data"] != undefined && <button className="btn btn-secondary" onClick={() => this.setState({ trigger: true })}>Click Here To Show Articles</button>}
         </div>
